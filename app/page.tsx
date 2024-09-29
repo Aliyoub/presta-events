@@ -23,18 +23,18 @@ export default function Home() {
       <Carousel />
       <div className="paragraphes">
         <div style={{ border: "1px #EDB8A6 solid" }} className={`paragraphe_1`}>
-          Ousmane Bah, Aliyou Binaté, Cheick Faye, pour les citer dans l'ordre alpabétique
-          de leur nom de famille, sont trois ingénieurs informatiques qui ont
-          apporté leur savoir-faire technique pour créer des outils performants
-          et intuitifs lors de la mise en place de cette plateforme. 
-          Passionnés par les nouvelles technologies et notamment par le monde du
-          Devops, ils ont su donner vie à ce site web ergonomique, rapide, et
-          doté d’un algorithme de recherche puissant pour permettre aux
-          utilisateurs de trouver rapidement les prestataires correspondant à
-          leurs besoins. 
-          Grâce à leurs compétences, la plateforme est capable de filtrer les
-          prestataires par catégorie (photographes, traiteurs, décorateurs,
-          etc.), par région et par budget, tout en offrant une interface fluide.
+          {"Ousmane Bah, Aliyou Binaté, Cheick Faye, pour les citer dans l&#39;ordre alpabétique\
+          de leur nom de famille, sont trois ingénieurs informatiques qui ont\
+          apporté leur savoir-faire technique pour créer des outils performants\
+          et intuitifs lors de la mise en place de cette plateforme. \
+          Passionnés par les nouvelles technologies et notamment par le monde du\
+          Devops, ils ont su donner vie à ce site web ergonomique, rapide, et\
+          doté d’un algorithme de recherche puissant pour permettre aux\
+          utilisateurs de trouver rapidement les prestataires correspondant à\
+          leurs besoins. \
+          Grâce à leurs compétences, la plateforme est capable de filtrer les\
+          prestataires par catégorie (photographes, traiteurs, décorateurs,\
+          etc.), par région et par budget, tout en offrant une interface fluide."}
         </div>
       </div>
       <div className="main_blocs_prestataires_container">
