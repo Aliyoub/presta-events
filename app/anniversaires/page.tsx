@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 
-export const Page = () =>{
+  export default function Home() {
   return (
     <div
       style={{
