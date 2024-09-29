@@ -23,24 +23,25 @@ export default function Home() {
       <Carousel />
       <div className="paragraphes">
         <div style={{ border: "1px #EDB8A6 solid" }} className={`paragraphe_1`}>
-          <span style={{fontWeight:'bold'}}>Ousmane Bah,</span> <span style={{fontWeight:'bold'}}>Aliyou Binaté,</span>{" "}
-          <span style={{fontWeight:'bold'}}> Cheick Faye,</span> pour les citer dans l'ordre alpabétique
+          Ousmane Bah, Aliyou Binaté, Cheick Faye, pour les citer dans l'ordre alpabétique
           de leur nom de famille, sont trois ingénieurs informatiques qui ont
           apporté leur savoir-faire technique pour créer des outils performants
-          et intuitifs lors de la mise en place de cette plateforme. <br />
+          et intuitifs lors de la mise en place de cette plateforme. 
           Passionnés par les nouvelles technologies et notamment par le monde du
           Devops, ils ont su donner vie à ce site web ergonomique, rapide, et
           doté d’un algorithme de recherche puissant pour permettre aux
           utilisateurs de trouver rapidement les prestataires correspondant à
-          leurs besoins. <br />
+          leurs besoins. 
           Grâce à leurs compétences, la plateforme est capable de filtrer les
           prestataires par catégorie (photographes, traiteurs, décorateurs,
           etc.), par région et par budget, tout en offrant une interface fluide.
         </div>
       </div>
       <div className="main_blocs_prestataires_container">
-        <div className={`blocs_prestataires_image_wrapper_container`}>
-          <div className={`bloc_prestataire_image_wrapper`}>
+        <div className="blocs_prestataires_image_wrapper_container">
+        {/* <div className={`blocs_prestataires_image_wrapper_container`}> */}
+          <div className="bloc_prestataire_image_wrapper">
+          {/* <div className={`bloc_prestataire_image_wrapper`}> */}
             <h2 className={`${montserrat_bold.className}`}>Beauté</h2>
             <Image
               src="/presta-events-images/beaute.jpg"
@@ -51,7 +52,8 @@ export default function Home() {
               priority
             />
           </div>
-          <div className={`bloc_prestataire_image_wrapper`}>
+          <div className="bloc_prestataire_image_wrapper">
+          {/* <div className={`bloc_prestataire_image_wrapper`}> */}
             <h2 className={`${montserrat_bold.className}`}>
               Location de Véhicules
             </h2>
