@@ -66,24 +66,21 @@
   background-repeat: no-repeat;
 }
 
-.paragraphes {
+/* .paragraphes {
   display: flex;
   width: 100%;
   padding-top: 10px;
   margin-top: 10px;
   justify-content: space-around;
-  /* border: 1px red solid; */
-}
+} */
 
-.paragraphe_1 {
+/* .paragraphe_1 {
   display: flex;
   padding: 20px;
   width: 73%;
   border-radius: 10px;
   color: #5d5a5a;
-  /* align-self: center; */
-  /* border: 1px red solid; */
-}
+} */
 
 .main_blocs_prestataires_container {
   display: flex;

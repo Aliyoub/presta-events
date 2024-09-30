@@ -9,7 +9,7 @@ export default function Home() {
         alignItems: "center",
       }}
       className="container-style"
-    >
+    ><h2 style={{fontSize:30, fontWeight: 'bold', color:'#FF0200'}}>Mariages</h2>
       <p className="p-style">
         {
           "L’organisation d’un mariage est une étape cruciale dans la préparation\

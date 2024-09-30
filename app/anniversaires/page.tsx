@@ -11,7 +11,7 @@ import Image from "next/image";
         alignItems: "center",
       }}
       className="container-style"
-    >
+    > <h2 style={{fontSize:30, fontWeight: 'bold', color:'#FF0200'}}>Anniversaires</h2>
       <p className="p-style">
         {"L’organisation d’un anniversaire demande une bonne dose de planification\
         pour garantir une célébration réussie. Tout commence par la définition\
