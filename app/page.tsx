@@ -193,9 +193,9 @@ export default function Home() {
         // display: flex;
         // flex-direction: column;
         // align-items: center;
-          width: 60%;
-          margin-right: 20%;
-          margin-left: 20%;
+          width: 95%;
+          margin-right: 2.5%;
+          margin-left: 2.5%;
           margin-top: 30px;
         }
           .paragraphes {
