@@ -18,7 +18,7 @@ const Footer = () => {
       >
         <div>
           {/* <div className="container flex gap-10"> */}
-          <span>© 2024 Copyright: Presta Events</span>
+          <span>© 2024 Copyright Presta Events</span>
         </div>
       </div>
     </footer>

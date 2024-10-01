@@ -108,7 +108,7 @@ export default function Home() {
       >
         {/* </div> */}
         <div className="paragraphes">
-          <h2 style={{ fontSize: 30, fontWeight: "bold", color: "#FF0200" }}>
+          <h2>
             Gastronomie
           </h2>
           <div>
@@ -134,7 +134,7 @@ export default function Home() {
           </div>
         </div>
         <div className="paragraphes">
-          <h2 style={{ fontSize: 30, fontWeight: "bold", color: "#FF0200" }}>
+          <h2>
             Les Photographes et Vidéastes
           </h2>
           <div>
@@ -155,7 +155,7 @@ export default function Home() {
         </div>
 
         <div className="paragraphes">
-          <h2 style={{ fontSize: 30, fontWeight: "bold", color: "#FF0200" }}>
+          <h2>
             Les Décorateurs et Scénographes
           </h2>
           <div>
@@ -180,42 +180,39 @@ export default function Home() {
       <Footer />
       <style>
         {`
-        .authors {
-        width: 80%; margin-left: 10%; margin-top: 30px;
-        transition: transform 0.6s ease;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        padding: 20px;
-        margin-bottom: 30px;
-        // width: 73%;
-        border-radius: 10px;
-        }
-        .prestataires{
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
-          width: 95%;
-          margin-right: 2.5%;
-          margin-left: 2.5%;
-          margin-top: 30px;
-        }
-          .paragraphes {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            margin-top: 10px;
-            // border: 1px solid red
-          }
-          .paragraphes div{
-          display: flex;
-          padding: 20px;
-          margin-bottom: 30px;
-          // width: 73%;
-          border-radius: 10px;
-          color: #5d5a5a;
-          transition: transform 0.6s ease;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          }
+        // .authors {
+        // width: 95%; margin-left: 2.5%; margin-top: 30px;
+        // transition: transform 0.6s ease;
+        // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        // padding: 20px;
+        // margin-bottom: 30px;
+        // // width: 73%;
+        // border-radius: 10px;
+        // }
+        // .prestataires{
+        //   width: 95%;
+        //   margin-right: 2.5%;
+        //   margin-left: 2.5%;
+        //   margin-top: 30px;
+        // }
+        //   .paragraphes {
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     width: 100%;
+        //     margin-top: 10px;
+        //     // border: 1px solid red
+        //   }
+        //   .paragraphes div{
+        //   display: flex;
+        //   padding: 20px;
+        //   margin-bottom: 30px;
+        //   // width: 73%;
+        //   border-radius: 10px;
+        //   color: #5d5a5a;
+        //   transition: transform 0.6s ease;
+        //   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        //   }
           `}
       </style>
     </main>
