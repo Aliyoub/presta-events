@@ -98,16 +98,16 @@ export default function Home() {
       <style jsx>{`
         .container-style {
           display: flex;
-          margin-left: 15%;
-          margin-right: 15%;
-          width: 70%;
+          // margin-left: 15%;
+          // margin-right: 15%;
+          // width: 70%;
           flex-direction: column;
           alignitems: center;
           padding-top: 30px;
           // border: 1px solid red;
         }
         .p-style {
-          width: 55%;
+          // width: 55%;
           padding: 20px;
           margin-bottom: 10px;
           border: 1px solid pink;
